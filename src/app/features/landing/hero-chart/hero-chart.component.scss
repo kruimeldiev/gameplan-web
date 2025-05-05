@@ -1,0 +1,21 @@
+.charts-container {
+    backdrop-filter: blur(5px);
+    background: rgb(from var(--off-white) r g b / 0.5);
+    height: 300px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgb(from var(--off-white) r g b);
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    }
+}

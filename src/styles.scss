@@ -4,10 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
-    --primary-color: #2C4326;
-    --secondary-color: #73B535;
-    --background-color: #ffffff;
-    --text-color: #252525;
+    // --primary-color: #2C4326;
+    // --secondary-color: #73B535;
+    --off-black: #050505;
+    --off-white: #F5F5F5;
+    --background-light: #F3F3F3;
+    // --nav_bar_background: #C9D8E0;
+    --primary_btn: #0A100D;
+    --primary_btn_hover: #18251F;
 }
 
 body {
@@ -15,23 +19,27 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: var(--text-color);
 }
 
 h1 {
     font-family: "IBM Plex Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
-    color: var(--text-color);
 }
 
 h2 {
     font-family: "IBM Plex Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
-    color: var(--text-color);
+}
+
+h5 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /* Apply global styles */

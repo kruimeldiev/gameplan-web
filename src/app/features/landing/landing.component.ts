@@ -1,16 +1,15 @@
 import { Component } from '@angular/core';
+import { NavBarComponent } from '../../shared/nav-bar/nav-bar.component';
+import { AboutComponent } from './about/about.component';
+import { HeroChartComponent } from './hero-chart/hero-chart.component';
 
-// This component represents the landing page of the application.
 @Component({
   selector: 'app-landing',
+  standalone: true,
+  imports: [NavBarComponent, AboutComponent, HeroChartComponent],
   templateUrl: './landing.component.html',
-  styleUrls: ['./landing.component.scss']
+  styleUrl: './landing.component.scss'
 })
 export class LandingComponent {
-  // title = 'Welcome to the Landing Page!';
-  // description = 'This is the landing page of our application. Here you can find information about our features and services.';
 
-  // constructor() {
-    
-  // }
 }

@@ -7,7 +7,7 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "nl-NL": {
+          "nl": {
             "translation": "src/locale/messages.nl.xlf",
             "baseHref": "/nl/"
           }
@@ -27,7 +27,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "localize": [
-              "nl-NL"
+              "en-US"
             ],
             "outputPath": "dist/gameplan_web",
             "index": "src/index.html",
@@ -42,7 +42,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"
@@ -108,7 +109,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"

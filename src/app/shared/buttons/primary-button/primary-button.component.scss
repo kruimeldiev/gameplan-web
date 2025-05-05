@@ -1,0 +1,20 @@
+.primary-btn {
+  background-color: var(--primary_btn);
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 16px;
+  font-weight: 400;
+  font-size: medium;
+  font-family: inherit;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: var(--primary_btn_hover);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
